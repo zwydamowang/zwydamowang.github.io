@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Education Experiences"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,51 +9,39 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+<div style="display: flex; flex-direction: column; margin-bottom: 50px;">
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  <!-- 第一组图片和段落 -->
+  <div style="display: flex; align-items: flex-start;">
+    <!-- 图片部分（1/3） -->
+    <div style="flex: 1;">
+      <img src="../images/about/qinghua.png" style="width: 100%; height: auto;">
+    </div>
+    <!-- 文字部分（2/3） -->
+    <div style="flex: 6; padding-left: 20px;">
+      <p style="margin-bottom: 50px;"><strong>Tsinghua University</strong><br>
+      2023.9 - <br>
+      Pursuing M.S. degree in BHE<br>
+      </p>
+    </div>
+  </div>
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  <!-- 第三组图片和段落 -->
+  <div style="display: flex; align-items: flex-start;">
+    <!-- 图片部分（1/3） -->
+    <div style="flex: 1;">
+      <img src="../images/about/dongnan.png" style="width: 100%; height: auto;">
+    </div>
+    <!-- 文字部分（2/3） -->
+    <div style="flex: 6; padding-left: 20px;">
+      <p style="margin-bottom: 50px;"><strong>Southeast University</strong><br>
+      2019.9 - 2023.6<br>
+      Chien-Shiung Wu College <span style="color: #AC1F1F;">(Honors College)</span><br>
+      B.S. degree in BME<br>
+    </p>
+    </div>
+  </div>
+
+
+</div>
